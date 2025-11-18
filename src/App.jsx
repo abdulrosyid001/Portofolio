@@ -46,13 +46,13 @@ export default function App() {
           <BlogPreview />
         </section>
 
-        <section className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div className="glass p-6 rounded-xl neon-outline">
+        <section className="mt-12 grid grid-cols-1 gap-6">
+        <div className="glass p-6 rounded-xl neon-outline w-full">
             <h3 className="font-semibold mb-2">Kontak</h3>
             <p>Email: <a className="text-primary" href={`mailto:${biodata.email}`}>{biodata.email}</a></p>
             <p>Nomor Telepon: {biodata.phone}</p>
             <p>Lokasi: {biodata.location}</p>
-          </div>
+        </div>
         </section>
 
         <Footer />
