@@ -17,17 +17,14 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-purpleDeep flex items-center justify-center font-bold text-white">G</div>
-            <span className="font-semibold">Abdul</span>
+            <span className="font-semibold">Abdul Rosyid</span>
           </div>
 
           <div className="hidden md:flex items-center gap-6">
-            <a href="#" className="text-subText hover:text-white">Home</a>
-            <a href="#projects" className="text-subText hover:text-white">Work</a>
-            <a href="#services" className="text-subText hover:text-white">Services</a>
-            <a href="#experience" className="text-subText hover:text-white">Experience</a>
-            <a href="#blog" className="text-subText hover:text-white">Blog</a>
-            <a href="#contact" className="text-subText hover:text-white">Contact</a>
-            <button className="ml-2 px-3 py-1 border border-primary rounded-md text-primary hover:bg-primary/10">Hire me</button>
+            <a href="#" className="text-subText hover:text-white">Beranda</a>
+            <a href="#projects" className="text-subText hover:text-white">Projek</a>
+            <a href="#experience" className="text-subText hover:text-white">Pengalaman</a>
+            <a href="#contact" className="text-subText hover:text-white">Penghargaan</a>
           </div>
 
           <div className="md:hidden">
@@ -42,12 +39,10 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden bg-black/60 p-4">
           <div className="flex flex-col gap-3">
-            <a href="#" className="text-subText">Home</a>
-            <a href="#projects" className="text-subText">Work</a>
-            <a href="#services" className="text-subText">Services</a>
-            <a href="#experience" className="text-subText">Experience</a>
-            <a href="#blog" className="text-subText">Blog</a>
-            <a href="#contact" className="text-subText">Contact</a>
+            <a href="#" className="text-subText">Beranda</a>
+            <a href="#projects" className="text-subText">Projek</a>
+            <a href="#services" className="text-subText">Pengalaman</a>
+            <a href="#experience" className="text-subText">Penghargaan</a>
           </div>
         </div>
       )}
