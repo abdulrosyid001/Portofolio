@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #0b0320;
+  --grad-from: rgba(99,102,241,0.15);
+  --grad-to: rgba(139,92,246,0.15);
+}
+
+html,body,#root{
+  height:100%;
+}
+
+body{
+  @apply bg-[var(--bg)] text-softText font-inter antialiased;
+  background-image: linear-gradient(135deg, var(--grad-from), var(--grad-to));
+}
+
+.glass {
+  background: rgba(255,255,255,0.02);
+  backdrop-filter: blur(6px);
+}
+
+.neon-outline {
+  box-shadow: 0 0 20px rgba(124,58,237,0.08);
+  border: 1px solid rgba(124,58,237,0.12);
+}
