@@ -21,18 +21,6 @@ export default function App() {
         <Hero data={biodata} />
 
         <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">My Quality Services</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="lg:col-span-1">
-              <ServicesAccordion />
-            </div>
-            <div className="lg:col-span-2 glass p-6 rounded-xl neon-outline">
-              <p className="text-subText">Detail area for selected service or summary text. This area mirrors the reference layout where the accordion sits to the left.</p>
-            </div>
-          </div>
-        </section>
-
-        <section className="mt-12">
           <h2 className="text-2xl font-semibold mb-4">My Recent Works</h2>
           <ProjectsGrid projects={biodata.projects} />
         </section>
