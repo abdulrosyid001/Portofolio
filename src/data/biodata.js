@@ -8,9 +8,7 @@ export const biodata = {
   about:
     'Seorang mahasiswa S1-Statistika yang berminat dalam artificial intelligence. Berpengalaman dalam membangun model prediktif dan mengimplementasikannya dalam bentuk website dan chatbot.',
   stats: [
-    { label: 'Years', value: '1' },
     { label: 'Projek', value: '5+' },
-    { label: 'Happy Clients', value: '1.5K' },
     { label: 'Penghargaan', value: '5' }
   ],
   projects: [
