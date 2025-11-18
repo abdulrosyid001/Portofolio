@@ -21,7 +21,7 @@ export default function App() {
         <Hero data={biodata} />
 
         <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">My Recent Works</h2>
+          <h2 className="text-2xl font-semibold mb-4">Projek Saya</h2>
           <ProjectsGrid projects={biodata.projects} />
         </section>
 
@@ -30,6 +30,7 @@ export default function App() {
             <h3 className="text-xl font-semibold mb-4">Pengalaman Saya</h3>
             <Experience />
           </div>
+          
           <div>
             <h3 className="text-xl font-semibold mb-4">Pendidikan Saya</h3>
             <Education />
@@ -39,11 +40,6 @@ export default function App() {
         <section className="mt-12">
           <h2 className="text-2xl font-semibold mb-4">Kemampuan Saya</h2>
           <Skills />
-        </section>
-
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">Recent Blogs</h2>
-          <BlogPreview />
         </section>
 
         <section className="mt-12">

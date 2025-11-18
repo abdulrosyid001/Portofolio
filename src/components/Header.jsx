@@ -16,7 +16,6 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-purpleDeep flex items-center justify-center font-bold text-white">G</div>
             <span className="font-semibold">Abdul Rosyid</span>
           </div>
 
