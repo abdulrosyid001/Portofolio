@@ -27,23 +27,18 @@ export default function App() {
 
         <section className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div>
-            <h3 className="text-xl font-semibold mb-4">My Experience</h3>
+            <h3 className="text-xl font-semibold mb-4">Pengalaman Saya</h3>
             <Experience />
           </div>
           <div>
-            <h3 className="text-xl font-semibold mb-4">My Education</h3>
+            <h3 className="text-xl font-semibold mb-4">Pendidikan Saya</h3>
             <Education />
           </div>
         </section>
 
         <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">My Skills</h2>
+          <h2 className="text-2xl font-semibold mb-4">Kemampuan Saya</h2>
           <Skills />
-        </section>
-
-        <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">My Client's Stories</h2>
-          <Testimonials />
         </section>
 
         <section className="mt-12">
@@ -52,15 +47,11 @@ export default function App() {
         </section>
 
         <section className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">Let's work together!</h2>
-            <ContactForm />
-          </div>
           <div className="glass p-6 rounded-xl neon-outline">
-            <h3 className="font-semibold mb-2">Contact Info</h3>
+            <h3 className="font-semibold mb-2">Kontak</h3>
             <p>Email: <a className="text-primary" href={`mailto:${biodata.email}`}>{biodata.email}</a></p>
-            <p>Phone: {biodata.phone}</p>
-            <p>Location: {biodata.location}</p>
+            <p>Nomor Telepon: {biodata.phone}</p>
+            <p>Lokasi: {biodata.location}</p>
           </div>
         </section>
 

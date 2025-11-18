@@ -1,10 +1,10 @@
 // Dummy biodata + projects. Edit this file to replace content quickly.
 export const biodata = {
   name: 'Abdul Rosyid',
-  role: 'Mahasiswa Statistika • AI Enthusiast',
-  location: 'Indonesia',
-  email: 'rosyid@example.com',
-  phone: '+62 813-xxxx-xxxx',
+  role: 'Mahasiswa Statistika | Data Enthusiast',
+  location: 'Surakarta, Indonesia',
+  email: 'abdulrosyid6122004@gmail.com',
+  phone: '+62 895-2634-7468',
   about:
     'Seorang mahasiswa S1-Statistika yang berminat dalam artificial intelligence. Berpengalaman dalam membangun model prediktif dan mengimplementasikannya dalam bentuk website dan chatbot.',
   stats: [
