@@ -13,7 +13,7 @@ html,body,#root{
 }
 
 body{
-  @apply bg-[var(--bg)] text-softText font-inter antialiased;
+  @apply bg-[var(--bg)] text-softText font-sans antialiased;
   background-image: linear-gradient(135deg, var(--grad-from), var(--grad-to));
 }
 
