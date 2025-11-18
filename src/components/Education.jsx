@@ -2,10 +2,10 @@ import React from 'react'
 
 // Education: vertical cards listing education entries
 const education = [
-  { period: '2020', title: 'Programming Course' },
-  { period: '2018–2019', title: 'Graphic Design Course' },
-  { period: '2016–2018', title: 'Web Design Course' },
-  { period: '2014–2016', title: 'Design & Technology' }
+  { period: '2023-Sekarang', title: 'S1-Statistika Universitas Sebelas Maret' },
+  { period: '2020-2023', title: 'SMAN 1 Pekalongan' },
+  { period: '2017-2020', title: 'SMPN 1 Sragi' },
+  { period: '2011-2017', title: 'SDN 2 Wonosari' }
 ]
 
 export default function Education() {

@@ -2,10 +2,9 @@ import React from 'react'
 
 // Experience: vertical stack of experience items
 const experience = [
-  { period: '2023–Now', title: 'Lead Developer', org: 'Open Source Project' },
-  { period: '2021–2023', title: 'Full Stack Web Developer', org: 'Startup Co.' },
-  { period: '2020–2021', title: 'UI Designer', org: 'Agency' },
-  { period: '2019–2020', title: 'Junior Graphics Designer', org: 'Studio' }
+  { period: 'Juli 2025 - Sekarang', title: 'Asisten Penelitian dengan Topik Time Seires Forecasting', org: '...' },
+  { period: 'Agustus 2025 - Sekarang', title: 'Asisten Dosen Mata Kuliah Analisis Regresi', org: '...' },
+  { period: 'Agustus 2025 - Sekarang', title: 'Asisten Praktikum Mata Kuliah Basis Data', org: '...' }
 ]
 
 export default function Experience() {
