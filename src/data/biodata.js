@@ -6,12 +6,12 @@ export const biodata = {
   email: 'rosyid@example.com',
   phone: '+62 813-xxxx-xxxx',
   about:
-    'Mahasiswa Statistika tingkat tiga yang tertarik pada machine learning, data visualization, dan aplikasi statistik untuk masalah nyata. Berpengalaman membuat proyek analisis data, prediksi, dan dashboard interaktif.',
+    'Seorang mahasiswa S1-Statistika yang berminat dalam artificial intelligence. Berpengalaman dalam membangun model prediktif dan mengimplementasikannya dalam bentuk website dan chatbot.',
   stats: [
     { label: 'Years', value: '1' },
-    { label: 'Projects', value: '50+' },
+    { label: 'Projek', value: '5+' },
     { label: 'Happy Clients', value: '1.5K' },
-    { label: 'Awards', value: '14' }
+    { label: 'Penghargaan', value: '5' }
   ],
   projects: [
     {
