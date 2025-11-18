@@ -46,12 +46,33 @@ export default function App() {
           <BlogPreview />
         </section>
 
-        <section className="mt-12 grid grid-cols-1 gap-6">
+        <section className="mt-12">
         <div className="glass p-6 rounded-xl neon-outline w-full">
-            <h3 className="font-semibold mb-2">Kontak</h3>
-            <p>Email: <a className="text-primary" href={`mailto:${biodata.email}`}>{biodata.email}</a></p>
-            <p>Nomor Telepon: {biodata.phone}</p>
-            <p>Lokasi: {biodata.location}</p>
+            <h3 className="font-semibold mb-4">Kontak</h3>
+
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+
+            {/* Email */}
+            <div className="flex items-center gap-2">
+                <span className="text-primary text-xl">📧</span>
+                <a href={`mailto:${biodata.email}`} className="text-primary hover:underline">
+                {biodata.email}
+                </a>
+            </div>
+
+            {/* Phone */}
+            <div className="flex items-center gap-2">
+                <span className="text-primary text-xl">📞</span>
+                <span>{biodata.phone}</span>
+            </div>
+
+            {/* Location */}
+            <div className="flex items-center gap-2">
+                <span className="text-primary text-xl">📍</span>
+                <span>{biodata.location}</span>
+            </div>
+
+            </div>
         </div>
         </section>
 
