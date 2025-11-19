@@ -3,19 +3,29 @@ import React from 'react'
 // Awards: list of achievements / recognitions
 const awards = [
   { 
-    title: 'Finalis Data Science Competition Nasional',
-    organizer: 'Universitas Indonesia',
+    title: 'Best Speaker Esai Pesta Ilmiah Sriwijaya',
+    organizer: 'Universitas Sriwijaya',
     year: '2024' 
   },
   { 
-    title: 'Juara 1 Machine Learning Regional Competition',
-    organizer: 'Kaggle Community Regional',
-    year: '2023' 
+    title: 'Juara 1 Karya Tulis Ilmiah Jambore Statistika',
+    organizer: 'Universitas Mulawarman',
+    year: '2025' 
   },
   { 
-    title: 'Best Paper Award – Statistical Modeling',
-    organizer: 'Konferensi Statistika Indonesia',
-    year: '2023' 
+    title: 'Pembiayaan WIBAWA',
+    organizer: 'Universitas Sebelas Maret',
+    year: '2025' 
+  },
+  { 
+    title: 'Juara 3 Data Science Padjadjaran Statistics Olympiad',
+    organizer: 'Universitas Padjajaran',
+    year: '2025' 
+  },
+  { 
+    title: '15 besar Esai Satria Data',
+    organizer: 'Pusat Prestasi Nasional',
+    year: '2025' 
   }
 ]
 
