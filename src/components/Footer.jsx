@@ -1,6 +1,10 @@
 import React from 'react'
 
-// Footer: callable but renders nothing
+// Footer: minimal footer with small nav and credits
 export default function Footer() {
-  return null
+  return (
+    <footer className="mt-12 py-8 text-subText text-sm">
+      <div className="mt-4 text-center"> </div>
+    </footer>
+  )
 }
