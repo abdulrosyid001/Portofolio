@@ -23,7 +23,7 @@ export default function Header() {
             <a href="#" className="text-subText hover:text-white">Beranda</a>
             <a href="#projects" className="text-subText hover:text-white">Projek</a>
             <a href="#experience" className="text-subText hover:text-white">Pengalaman</a>
-            <a href="#contact" className="text-subText hover:text-white">Penghargaan</a>
+            <a href="#reward" className="text-subText hover:text-white">Penghargaan</a>
           </div>
 
           <div className="md:hidden">
@@ -40,8 +40,8 @@ export default function Header() {
           <div className="flex flex-col gap-3">
             <a href="#" className="text-subText">Beranda</a>
             <a href="#projects" className="text-subText">Projek</a>
-            <a href="#services" className="text-subText">Pengalaman</a>
-            <a href="#experience" className="text-subText">Penghargaan</a>
+            <a href="#experience" className="text-subText">Pengalaman</a>
+            <a href="#reward" className="text-subText">Penghargaan</a>
           </div>
         </div>
       )}
