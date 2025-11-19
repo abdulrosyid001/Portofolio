@@ -35,8 +35,8 @@ export default function App() {
           <Reward />
         </section>
 
-        <section id="kontak" className="mt-12">
-          <h3 className="font-semibold mb-4">Kontak</h3>
+        <section id="kontak" className="mt-12 scroll-mt-24">
+          <h3 className="text-2xl font-semibold mb-4">Kontak</h3>
           <div className="glass p-6 rounded-xl neon-outline w-full">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
 
