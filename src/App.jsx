@@ -7,7 +7,7 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import Testimonials from './components/Testimonials'
-import BlogPreview from './components/Reward'
+import Reward from './components/Reward'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 import { biodata } from './data/biodata'
@@ -29,6 +29,13 @@ export default function App() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Pengalaman Saya</h3>
             <Experience />
+          </div>
+        </section>
+
+        <section className="mt-12 grid grid-cols-1 lg:grid-cols-1">
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Penghargaan Saya</h3>
+            <Reward />
           </div>
         </section>
 
