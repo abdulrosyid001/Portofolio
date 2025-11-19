@@ -6,7 +6,6 @@ export default function ProjectsGrid({ projects = [] }) {
   const [selected, setSelected] = useState(null)
 
   const types = ['All', ...Array.from(new Set(projects.map(p => p.type)))]
-
   const visible = projects.filter(p => filter === 'All' || p.type === filter)
 
   return (
@@ -45,6 +44,18 @@ export default function ProjectsGrid({ projects = [] }) {
             <div className="p-4">
               <h4 className="font-semibold">{p.title}</h4>
               <div className="text-sm text-subText">{p.type}</div>
+
+              {/* Link tampil di card */}
+              {p.link && (
+                <a
+                  href={p.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary text-sm underline mt-1 inline-block"
+                >
+                  Kunjungi Website →
+                </a>
+              )}
             </div>
 
             {/* Quick View Button */}
@@ -72,7 +83,22 @@ export default function ProjectsGrid({ projects = [] }) {
             <h3 className="text-xl font-semibold">{selected.title}</h3>
             <div className="text-sm text-primary mb-2">{selected.type}</div>
 
-            <p className="text-subText mt-2">{selected.desc}</p>
+            {/* Desc justify */}
+            <p className="text-subText mt-2 text-justify leading-relaxed">
+              {selected.desc}
+            </p>
+
+            {/* Link tampil di modal */}
+            {selected.link && (
+              <a
+                href={selected.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block text-primary underline"
+              >
+                Kunjungi Website →
+              </a>
+            )}
 
             <button
               onClick={() => setSelected(null)}

@@ -21,31 +21,36 @@ export const biodata = {
       title: 'Atamagri',
       type: 'Web',
       img: '/placeholders/paddy.svg',
-      desc: 'Website yang digunakan untuk pemantauan kondisi tanaman terintegrasi IoT dan drone.'
+      desc: 'Website yang digunakan untuk pemantauan kondisi tanaman terintegrasi IoT dan drone.',
+      link: 'https://www.atamagri.app/'
     },
     {
       title: 'Scancer',
       type: 'Web',
       img: '/placeholders/dashboard.svg',
-      desc: 'Website untuk mendeteksi apakah seseorang menderita kanker kulit atau tidak dengan input berupa gambar kulit pengguna.'
+      desc: 'Website untuk mendeteksi apakah seseorang menderita kanker kulit atau tidak dengan input berupa gambar kulit pengguna.',
+      link: 'https://scancer.streamlit.app/'
     },
     {
       title: 'Digicek',
       type: 'Web',
       img: '/placeholders/classify.svg',
-      desc: 'Website untuk mendeteksi apakah seseorang menderita diabetes dan gagal ginjal atau tidak dengan input berupa informasi terkait kebiasaan dan kesehatan pengguna.'
+      desc: 'Website untuk mendeteksi apakah seseorang menderita diabetes dan gagal ginjal atau tidak dengan input berupa informasi terkait kebiasaan dan kesehatan pengguna.',
+      link: 'https://digicek.streamlit.app/'
     },
     {
       title: 'Wellbot',
       type: 'Chatbot',
       img: '/placeholders/sampling.svg',
-      desc: 'Chatbot terintegrasi whatsapp untuk mendeteksi apakah seseorang menderita penyakit diabetes, gagal ginjal, dan penyakit jantung dengan input berupa informasi terkait kebiasaan dan kesehatan pengguna.'
+      desc: 'Chatbot terintegrasi whatsapp untuk mendeteksi apakah seseorang menderita penyakit diabetes, gagal ginjal, dan penyakit jantung dengan input berupa informasi terkait kebiasaan dan kesehatan pengguna.',
+      link: 'wa.me/6281233624051'
     },
     {
       title: 'EyeOnRoad',
       type: 'Web',
       img: '/placeholders/sampling.svg',
-      desc: 'Website untuk mendeteksi apakah seorang pengemudi mengantuk atau tidak dengan input berupa gambar wajah pengemudi.'
+      desc: 'Website untuk mendeteksi apakah seorang pengemudi mengantuk atau tidak dengan input berupa gambar wajah pengemudi.',
+      link: 'https://huggingface.co/spaces/abdulrosyid/EyeOnRoad'
     }
   ]
 }
