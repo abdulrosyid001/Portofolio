@@ -14,11 +14,6 @@ export default function Hero({ data = biodata }) {
           </h1>
           <p className="mt-4 text-subText max-w-xl">{data.about}</p>
 
-          <div className="mt-6 flex gap-3">
-            <a href="#" className="px-4 py-2 rounded-md border border-primary text-primary">Unduh CV</a>
-            <a href="#contact" className="px-4 py-2 rounded-md bg-primary text-black">Kontak Saya</a>
-          </div>
-
           <div className="mt-6">
             <Stats items={data.stats} />
           </div>
