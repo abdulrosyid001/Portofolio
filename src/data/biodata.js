@@ -6,7 +6,7 @@ export const biodata = {
   email: 'abdulrosyid6122004@gmail.com',
   phone: '+62 895-2634-7468',
 
-  photo: '/placeholders/IMG_7299 (2).HEIC',
+  photo: '/placeholders/IMG_7299 (2).jpg',
 
   about:
     'Seorang mahasiswa S1-Statistika yang berminat dalam artificial intelligence. Berpengalaman dalam membangun model prediktif dan mengimplementasikannya dalam bentuk website dan chatbot.',
