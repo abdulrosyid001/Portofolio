@@ -53,7 +53,7 @@ export default function ProjectsGrid({ projects = [] }) {
                   rel="noopener noreferrer"
                   className="text-primary text-sm underline mt-1 inline-block"
                 >
-                  Kunjungi {selected.type}
+                  Kunjungi {p.type}
                 </a>
               )}
             </div>
