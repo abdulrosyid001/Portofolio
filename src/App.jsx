@@ -25,15 +25,10 @@ export default function App() {
           <ProjectsGrid projects={biodata.projects} />
         </section>
 
-        <section className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <section className="mt-12 grid grid-cols-1 lg:grid-cols-1">
           <div>
             <h3 className="text-xl font-semibold mb-4">Pengalaman Saya</h3>
             <Experience />
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Pendidikan Saya</h3>
-            <Education />
           </div>
         </section>
 
