@@ -17,7 +17,9 @@ export default function Hero({ data = biodata }) {
               Data Enthusiast | Mahasiswa Statistika
             </span>
           </h1>
-          <p className="mt-4 text-subText max-w-xl">{data.about}</p>
+          <p className="mt-4 text-subText max-w-xl text-justify">
+            {data.about}
+          </p>
 
           <div className="mt-6">
             <Stats items={data.stats} />
