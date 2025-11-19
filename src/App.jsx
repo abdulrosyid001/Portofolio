@@ -20,7 +20,7 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Hero data={biodata} />
 
-        <section className="mt-12 scroll-mt-24">
+        <section id="project" className="mt-12 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-4">Projek Saya</h2>
           <ProjectsGrid projects={biodata.projects} />
         </section>
