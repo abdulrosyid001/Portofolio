@@ -20,10 +20,10 @@ export default function Header() {
           </div>
 
           <div className="hidden md:flex items-center gap-6">
-            <a href="" className="text-subText hover:text-white">Beranda</a>
-            <a href="projek" className="text-subText hover:text-white">Projek</a>
-            <a href="pengalaman" className="text-subText hover:text-white">Pengalaman</a>
-            <a href="penghargaan" className="text-subText hover:text-white">Penghargaan</a>
+            <a href="#" className="text-subText hover:text-white">Beranda</a>
+            <a href="#projek" className="text-subText hover:text-white">Projek</a>
+            <a href="#pengalaman" className="text-subText hover:text-white">Pengalaman</a>
+            <a href="#penghargaan" className="text-subText hover:text-white">Penghargaan</a>
           </div>
 
           <div className="md:hidden">
@@ -38,10 +38,10 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden bg-black/60 p-4">
           <div className="flex flex-col gap-3">
-            <a href="" className="text-subText">Beranda</a>
-            <a href="projek" className="text-subText">Projek</a>
-            <a href="pengalaman" className="text-subText">Pengalaman</a>
-            <a href="penghargaan" className="text-subText">Penghargaan</a>
+            <a href="#" className="text-subText">Beranda</a>
+            <a href="#projek" className="text-subText">Projek</a>
+            <a href="#pengalaman" className="text-subText">Pengalaman</a>
+            <a href="#penghargaan" className="text-subText">Penghargaan</a>
           </div>
         </div>
       )}
