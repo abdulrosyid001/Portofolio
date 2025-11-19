@@ -20,17 +20,17 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Hero data={biodata} />
 
-        <section id="project" className="mt-12 scroll-mt-24">
+        <section id="projek" className="mt-12 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-4">Projek Saya</h2>
           <ProjectsGrid projects={biodata.projects} />
         </section>
 
-        <section id="experience" className="mt-12 scroll-mt-24">
+        <section id="pengalaman" className="mt-12 scroll-mt-24">
           <h3 className="text-2xl font-semibold mb-4">Pengalaman Saya</h3>
           <Experience />
         </section>
 
-        <section id="reward" className="mt-12 scroll-mt-24">
+        <section id="penghargaan" className="mt-12 scroll-mt-24">
           <h3 className="text-2xl font-semibold mb-4">Penghargaan Saya</h3>
           <Reward />
         </section>
