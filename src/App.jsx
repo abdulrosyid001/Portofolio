@@ -26,17 +26,13 @@ export default function App() {
         </section>
 
         <section className="mt-12 grid grid-cols-1 lg:grid-cols-1">
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Pengalaman Saya</h3>
-            <Experience />
-          </div>
+          <h3 className="text-xl font-semibold mb-4">Pengalaman Saya</h3>
+          <Experience />
         </section>
 
         <section className="mt-12 grid grid-cols-1 lg:grid-cols-1">
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Penghargaan Saya</h3>
-            <Reward />
-          </div>
+          <h3 className="text-xl font-semibold mb-4">Penghargaan Saya</h3>
+          <Reward />
         </section>
 
         <section className="mt-12">
