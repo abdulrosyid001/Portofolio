@@ -72,7 +72,7 @@ export default function ProjectsGrid({ projects = [] }) {
 
       {/* Quick View Modal */}
       {selected && (
-        <div className="fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50">
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center p-4 z-50">
           <div className="glass p-6 rounded-xl max-w-md w-full">
             <img
               src={selected.img}
@@ -83,12 +83,10 @@ export default function ProjectsGrid({ projects = [] }) {
             <h3 className="text-xl font-semibold">{selected.title}</h3>
             <div className="text-sm text-primary mb-2">{selected.type}</div>
 
-            {/* Desc justify */}
             <p className="text-subText mt-2 text-justify leading-relaxed">
               {selected.desc}
             </p>
 
-            {/* Link tampil di modal */}
             {selected.link && (
               <a
                 href={selected.link}

@@ -26,6 +26,16 @@ const awards = [
     title: '15 besar Esai Satria Data',
     organizer: 'Pusat Prestasi Nasional',
     year: '2025' 
+  },
+  { 
+    title: 'Posisi 4 Data Science Sebelas Maret Statistics Data Science',
+    organizer: 'Universitas Sebelas Maret',
+    year: '2025' 
+  },
+  { 
+    title: 'Posisi 11 Data Science Data Quest',
+    organizer: 'Universitas Airlangga',
+    year: '2025'
   }
 ]
 
