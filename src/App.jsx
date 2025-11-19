@@ -25,13 +25,13 @@ export default function App() {
           <ProjectsGrid projects={biodata.projects} />
         </section>
 
-        <section className="mt-12 grid grid-cols-1 lg:grid-cols-1">
-          <h3 className="text-xl font-semibold mb-4">Pengalaman Saya</h3>
+        <section id="experience" className="mt-12">
+          <h3 className="text-2xl font-semibold mb-4">Pengalaman Saya</h3>
           <Experience />
         </section>
 
-        <section className="mt-12 grid grid-cols-1 lg:grid-cols-1">
-          <h3 className="text-xl font-semibold mb-4">Penghargaan Saya</h3>
+        <section id="reward" className="mt-12">
+          <h3 className="text-2xl font-semibold mb-4">Penghargaan Saya</h3>
           <Reward />
         </section>
 
