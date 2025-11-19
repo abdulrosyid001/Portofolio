@@ -13,28 +13,34 @@ export const biodata = {
   ],
   projects: [
     {
-      title: 'Analisis Time Series Harga Padi',
-      type: 'Data Science',
+      title: 'Atamagri',
+      type: 'Web',
       img: '/placeholders/paddy.svg',
-      desc: 'Analisis forecasting menggunakan ARIMA dan LSTM.'
+      desc: 'Website yang digunakan untuk pemantauan kondisi tanaman terintegrasi IoT dan drone.'
     },
     {
-      title: 'Dashboard Monitoring Panen',
+      title: 'Scancer',
       type: 'Web',
       img: '/placeholders/dashboard.svg',
-      desc: 'Dashboard interaktif untuk visualisasi produktivitas pertanian.'
+      desc: 'Website untuk mendeteksi apakah seseorang menderita kanker kulit atau tidak dengan input berupa gambar kulit pengguna.'
     },
     {
-      title: 'Klasifikasi Penyakit Tanaman',
-      type: 'Machine Learning',
+      title: 'Digicek',
+      type: 'Web',
       img: '/placeholders/classify.svg',
-      desc: 'Model CNN untuk mendeteksi penyakit daun.'
+      desc: 'Website untuk mendeteksi apakah seseorang menderita diabetes dan gagal ginjal atau tidak dengan input berupa informasi terkait kebiasaan dan kesehatan pengguna.'
     },
     {
-      title: 'Simulasi Sampling Statistik',
-      type: 'Education',
+      title: 'Wellbot',
+      type: 'Chatbot',
       img: '/placeholders/sampling.svg',
-      desc: 'Simulasi Monte Carlo untuk estimasi sampling error.'
+      desc: 'Chatbot terintegrasi whatsapp untuk mendeteksi apakah seseorang menderita penyakit diabetes, gagal ginjal, dan penyakit jantung dengan input berupa informasi terkait kebiasaan dan kesehatan pengguna.'
+    },
+    {
+      title: 'EyeOnRoad',
+      type: 'Web',
+      img: '/placeholders/sampling.svg',
+      desc: 'Website untuk mendeteksi apakah seorang pengemudi mengantuk atau tidak dengan input berupa gambar wajah pengemudi.'
     }
   ]
 }
