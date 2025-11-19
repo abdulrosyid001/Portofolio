@@ -38,29 +38,23 @@ export default function App() {
         <section id="kontak" className="mt-12 scroll-mt-24">
           <h3 className="text-2xl font-semibold mb-4">Kontak</h3>
           <div className="glass p-6 rounded-xl neon-outline w-full">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
 
               {/* Email */}
               <div className="flex items-center gap-2">
-                  <span className="text-primary text-xl">📧</span>
-                  <a href={`mailto:${biodata.email}`} className="text-primary hover:underline">
+                <span className="text-primary text-xl">📧</span>
+                <a href={`mailto:${biodata.email}`} className="text-primary hover:underline">
                   {biodata.email}
-                  </a>
+                </a>
               </div>
 
               {/* Phone */}
               <div className="flex items-center gap-2">
-                  <span className="text-primary text-xl">📞</span>
-                  <span>{biodata.phone}</span>
+                <span className="text-primary text-xl">📞</span>
+                <span>{biodata.phone}</span>
               </div>
 
-              {/* Location */}
-              <div className="flex items-center gap-2">
-                  <span className="text-primary text-xl">📍</span>
-                  <span>{biodata.location}</span>
-              </div>
-
-              </div>
+            </div>
           </div>
         </section>
 
