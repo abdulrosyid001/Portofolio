@@ -53,7 +53,7 @@ export default function ProjectsGrid({ projects = [] }) {
                   rel="noopener noreferrer"
                   className="text-primary text-sm underline mt-1 inline-block"
                 >
-                  Kunjungi {p.type}
+                  Kunjungi {selected.type}
                 </a>
               )}
             </div>
@@ -96,7 +96,7 @@ export default function ProjectsGrid({ projects = [] }) {
                 rel="noopener noreferrer"
                 className="mt-4 inline-block text-primary underline"
               >
-                Kunjungi {p.type}
+                Kunjungi {selected.type}
               </a>
             )}
 
