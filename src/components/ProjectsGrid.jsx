@@ -88,7 +88,9 @@ export default function ProjectsGrid({ projects = [] }) {
             />
 
             <h3 className="text-xl font-semibold">{selected.title}</h3>
-            <div className="text-sm text-primary mb-2">{selected.type}</div>
+            <div className="text-sm text-primary mb-2">
+              {selected.type.join(', ')}
+            </div>
 
             <p className="text-subText mt-2 text-justify leading-relaxed">
               {selected.desc}
