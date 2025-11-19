@@ -23,6 +23,7 @@ export default function ProjectsGrid({ projects = [] }) {
             <div className="p-4">
               <h4 className="font-semibold">{p.title}</h4>
               <div className="text-sm text-subText">{p.type}</div>
+              <p className="text-xs text-subText mt-1">{p.desc}</p>
             </div>
             <button aria-label={`Quick view ${p.title}`} className="absolute top-3 right-3 bg-black/40 px-2 py-1 rounded">Quick View</button>
           </article>
