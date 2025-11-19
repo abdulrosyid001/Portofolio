@@ -5,8 +5,13 @@ export default function ProjectsGrid({ projects = [] }) {
   const [filter, setFilter] = useState('All')
   const [selected, setSelected] = useState(null)
 
-  const types = ['All', ...Array.from(new Set(projects.map(p => p.type)))]
-  const visible = projects.filter(p => filter === 'All' || p.type === filter)
+  const types = [
+    'All',
+    ...Array.from(new Set(projects.flatMap(p => p.type)))
+  ]
+  const visible = projects.filter(
+    p => filter === 'All' || p.type.includes(filter)
+  )
 
   return (
     <div id="projek">
@@ -43,7 +48,9 @@ export default function ProjectsGrid({ projects = [] }) {
 
             <div className="p-4">
               <h4 className="font-semibold">{p.title}</h4>
-              <div className="text-sm text-subText">{p.type}</div>
+              <div className="text-sm text-subText">
+                {p.type.join(', ')}
+              </div>
 
               {/* Link tampil di card */}
               {p.link && (

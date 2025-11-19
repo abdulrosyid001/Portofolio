@@ -19,35 +19,35 @@ export const biodata = {
   projects: [
     {
       title: 'Atamagri',
-      type: 'Web',
+      type: ['Web','Computer Vision','IoT'],
       img: '/placeholders/Screenshot 2025-11-19 161616.png',
       desc: 'Website yang digunakan untuk pemantauan kondisi tanaman terintegrasi IoT dan drone.',
       link: 'https://www.atamagri.app/'
     },
     {
       title: 'Scancer',
-      type: 'Web',
+      type: ['Web','Computer Vision'],
       img: '/placeholders/Screenshot 2025-11-19 162213.png',
       desc: 'Website untuk mendeteksi apakah seseorang menderita kanker kulit atau tidak dengan input berupa gambar kulit pengguna.',
       link: 'https://scancer.streamlit.app/'
     },
     {
       title: 'Digicek',
-      type: 'Web',
+      type: ['Web','Supervised Learning'],
       img: '/placeholders/Screenshot 2025-11-19 162351.png',
       desc: 'Website untuk mendeteksi apakah seseorang menderita diabetes dan gagal ginjal atau tidak dengan input berupa informasi terkait kebiasaan dan kesehatan pengguna.',
       link: 'https://digicek.streamlit.app/'
     },
     {
       title: 'Wellbot',
-      type: 'Chatbot',
+      type: ['Chatbot','Supervised Learning'],
       img: '/placeholders/PPT_LPK-Bingung Namain_Universitas Sebelas Maret_WELLBOT DETEKSI DINI.jpg',
       desc: 'Chatbot terintegrasi whatsapp untuk mendeteksi apakah seseorang menderita penyakit diabetes, gagal ginjal, dan penyakit jantung dengan input berupa informasi terkait kebiasaan dan kesehatan pengguna.',
       link: 'wa.me/6281233624051'
     },
     {
       title: 'EyeOnRoad',
-      type: 'Web',
+      type: ['Web','Computer Vision'],
       img: '/placeholders/Screenshot 2025-11-19 162955.png',
       desc: 'Website untuk mendeteksi apakah seorang pengemudi mengantuk atau tidak dengan input berupa gambar wajah pengemudi.',
       link: 'https://huggingface.co/spaces/abdulrosyid/EyeOnRoad'
