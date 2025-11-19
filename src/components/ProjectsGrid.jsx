@@ -79,7 +79,7 @@ export default function ProjectsGrid({ projects = [] }) {
 
       {/* Quick View Modal */}
       {selected && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center p-4 z-50">
+        <div className="fixed inset-0 bg-black/95 flex items-center justify-center p-4 z-50">
           <div className="glass p-6 rounded-xl max-w-md w-full">
             <img
               src={selected.img}
