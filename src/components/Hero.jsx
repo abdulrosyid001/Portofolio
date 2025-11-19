@@ -18,17 +18,6 @@ export default function Hero({ data = biodata }) {
             <Stats items={data.stats} />
           </div>
         </div>
-
-        <div className="flex justify-center lg:justify-end">
-          <div className="w-64 sm:w-80 lg:w-96 p-4 rounded-2xl glass neon-outline shadow-soft-lg">
-            <img src="/placeholders/paddy.svg" alt="portrait" className="w-full h-56 object-cover rounded-xl" loading="lazy" />
-            <div className="mt-3 flex items-center justify-center gap-4">
-              <a aria-label="GitHub" href="#" className="text-subText">GitHub</a>
-              <a aria-label="LinkedIn" href="#" className="text-subText">LinkedIn</a>
-              <a aria-label="Instagram" href="#" className="text-subText">Instagram</a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )

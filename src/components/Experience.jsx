@@ -2,7 +2,7 @@ import React from 'react'
 
 // Experience: vertical stack of experience items
 const experience = [
-  { period: 'Juli 2025 - Sekarang', title: 'Asisten Penelitian dengan Topik Time Seires Forecasting', org: '...' },
+  { period: 'Juli 2025 - Sekarang', title: 'Asisten Penelitian dengan Topik Time Series Forecasting', org: '...' },
   { period: 'Agustus 2025 - Sekarang', title: 'Asisten Dosen Mata Kuliah Analisis Regresi', org: '...' },
   { period: 'Agustus 2025 - Sekarang', title: 'Asisten Praktikum Mata Kuliah Basis Data', org: '...' }
 ]
