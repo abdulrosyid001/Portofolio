@@ -16,7 +16,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
-            <span className="font-semibold">Abdul Rosyid</span>
+            <span className="font-semibold">Portofolio</span>
           </div>
 
           <div className="hidden md:flex items-center gap-6">
@@ -24,6 +24,7 @@ export default function Header() {
             <a href="#projek" className="text-subText hover:text-white">Projek</a>
             <a href="#pengalaman" className="text-subText hover:text-white">Pengalaman</a>
             <a href="#penghargaan" className="text-subText hover:text-white">Penghargaan</a>
+            <a href="#kontak" className="text-subText hover:text-white">Kontak</a>
           </div>
 
           <div className="md:hidden">
@@ -42,6 +43,7 @@ export default function Header() {
             <a href="#projek" className="text-subText">Projek</a>
             <a href="#pengalaman" className="text-subText">Pengalaman</a>
             <a href="#penghargaan" className="text-subText">Penghargaan</a>
+            <a href="#kontak" className="text-subText">Kontak</a>
           </div>
         </div>
       )}

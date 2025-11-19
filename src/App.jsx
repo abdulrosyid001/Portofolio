@@ -35,7 +35,7 @@ export default function App() {
           <Reward />
         </section>
 
-        <section className="mt-12">
+        <section id="kontak" className="mt-12">
         <div className="glass p-6 rounded-xl neon-outline w-full">
             <h3 className="font-semibold mb-4">Kontak</h3>
 
