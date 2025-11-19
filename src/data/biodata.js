@@ -5,12 +5,17 @@ export const biodata = {
   location: 'Surakarta, Indonesia',
   email: 'abdulrosyid6122004@gmail.com',
   phone: '+62 895-2634-7468',
+
+  photo: '/profile.jpg',
+
   about:
     'Seorang mahasiswa S1-Statistika yang berminat dalam artificial intelligence. Berpengalaman dalam membangun model prediktif dan mengimplementasikannya dalam bentuk website dan chatbot.',
+
   stats: [
     { label: 'Projek', value: '5+' },
     { label: 'Penghargaan', value: '5' }
   ],
+
   projects: [
     {
       title: 'Atamagri',
